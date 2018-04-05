@@ -19,7 +19,7 @@ class Mixcr < Formula
         MiXCR is free for academic and non-commercial use.
         See: https://github.com/milaboratory/mixcr/blob/develop/LICENSE
 
-        For commertioal use please contact licensing@milaboratory.com
+        For commertial use please contact licensing@milaboratory.com
 
     EOS
   end
