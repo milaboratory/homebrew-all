@@ -1,4 +1,4 @@
-class Mixcr < Formula
+class Mixcr3 < Formula
   desc "MiXCR is a universal software for fast and accurate analysis of T- and B- cell receptor repertoire sequencing data."
   homepage "https://mixcr.readthedocs.io/"
   url "https://github.com/milaboratory/mixcr/releases/download/v3.0/mixcr-3.0.zip"
