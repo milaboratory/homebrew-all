@@ -1,9 +1,9 @@
 class Minnn < Formula
   desc "MiNNN is a universal software for fast and accurate analysis of T- and B- cell receptor repertoire sequencing data."
   homepage "https://minnn.readthedocs.io/"
-  url "https://github.com/milaboratory/minnn/releases/download/v1.0.0/minnn-1.0.0.zip"
-  version "1.0.0-1"
-  sha256 "712db4a12c23b72c7b21b8d15dcd714afcbc28da3ce002388966f249f219d002"
+  url "https://github.com/milaboratory/minnn/releases/download/v2.0.0/minnn-2.0.0.zip"
+  version "2.0.0-1"
+  sha256 "0744e315a2cca4762336189695269d5eda532321026241898264c9cf6755b2ec"
 
   depends_on :java
 
