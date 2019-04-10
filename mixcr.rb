@@ -1,9 +1,9 @@
 class Mixcr < Formula
   desc "MiXCR is a universal software for fast and accurate analysis of T- and B- cell receptor repertoire sequencing data."
   homepage "https://mixcr.readthedocs.io/"
-  url "https://github.com/milaboratory/mixcr/releases/download/v3.0.5/mixcr-3.0.5.zip"
-  version "3.0.5-1"
-  sha256 "eabdc7ce633445ae05d44b3a9da93e16995bd1ee71905a8f9650e3fe98b0288d"
+  url "https://github.com/milaboratory/mixcr/releases/download/v3.0.6/mixcr-3.0.6.zip"
+  version "3.0.6-1"
+  sha256 "dff9faf981a835d210c0919d5e2c94435b3c11de9dda6519817d39a5c654cf5f"
 
   depends_on :java
 
