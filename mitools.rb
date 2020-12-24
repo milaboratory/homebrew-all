@@ -4,7 +4,7 @@ class Mitools < Formula
   version "1.5.0-1"
   sha256 "23a3b20730ce5b66c3acb966b63568895385399fbc7df2f8cdc5ec2441ed0595"
 
-  depends_on :java
+  # depends_on "openjdk@11"
 
   def install
     prefix.install Dir["*"]

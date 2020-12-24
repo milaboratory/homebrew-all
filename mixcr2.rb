@@ -5,7 +5,7 @@ class Mixcr2 < Formula
   version "2.1.12-1"
   sha256 "dc17d2f776c59dad2c0ca93c1a3b6bf88ac53967d51b5dcc70c96cf2c854bc90"
 
-  depends_on :java
+  # depends_on "openjdk@11"
 
   def install
     prefix.install Dir["*"]

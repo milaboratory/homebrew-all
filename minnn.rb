@@ -5,7 +5,7 @@ class Minnn < Formula
   version "10.1-1"
   sha256 "42967ea51e10051b5ffbd62c3e0b1d7ab41be05238e19d7f42a0585372187a3d"
 
-  depends_on :java
+  # depends_on "openjdk@11"
 
   def install
     prefix.install Dir["*"]
