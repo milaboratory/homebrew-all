@@ -3,7 +3,7 @@ class Mixcr < Formula
   homepage "https://mixcr.readthedocs.io/"
   url "https://github.com/milaboratory/mixcr/releases/download/v3.0.13/mixcr-3.0.13.zip"
   version "3.0.13-2"
-  sha256 "f0b32efadf6dae95819cd90cf49978e48797fc9f2685af1fd282a47d3f9fda08"
+  sha256 "cb61290eb40d1ad7c649dc8f2e1ab564bab6b2e39e1a0bdd26791eee620b1a21"
 
   # depends_on "openjdk@11"
 
