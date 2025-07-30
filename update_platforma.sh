@@ -23,10 +23,10 @@ ARM64_TGZ="$TEMP_DIR/Platforma-${NEW_VERSION}-arm64.tgz"
 AMD64_TGZ="$TEMP_DIR/Platforma-${NEW_VERSION}-amd64.tgz"
 
 echo "Downloading ARM64 from $ARM64_URL..."
-curl -L -o "$ARM64_TGZ" "$ARM64_URL"
+curl -f -L -o "$ARM64_TGZ" "$ARM64_URL"
 
 echo "Downloading AMD64 from $AMD64_URL..."
-curl -L -o "$AMD64_TGZ" "$AMD64_URL"
+curl -f -L -o "$AMD64_TGZ" "$AMD64_URL"
 
 # Calculate SHA256 checksums
 ARM64_SHA256=$(shasum -a 256 "$ARM64_TGZ" | awk '{print $1}')

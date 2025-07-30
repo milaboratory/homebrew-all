@@ -23,10 +23,10 @@ ARM64_DMG="$TEMP_DIR/Platforma-${NEW_VERSION}-arm64.dmg"
 AMD64_DMG="$TEMP_DIR/Platforma-${NEW_VERSION}.dmg"
 
 echo "Downloading ARM64 DMG from $ARM64_URL..."
-curl -L -o "$ARM64_DMG" "$ARM64_URL"
+curl -f -L -o "$ARM64_DMG" "$ARM64_URL"
 
 echo "Downloading AMD64 DMG from $AMD64_URL..."
-curl -L -o "$AMD64_DMG" "$AMD64_URL"
+curl -f -L -o "$AMD64_DMG" "$AMD64_URL"
 
 # Calculate SHA256 checksums
 ARM64_SHA256=$(shasum -a 256 "$ARM64_DMG" | awk '{print $1}')
