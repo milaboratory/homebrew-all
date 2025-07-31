@@ -3,15 +3,15 @@
 class Platforma < Formula
   desc "MiLaboratories Platforma server"
   homepage "https://platforma.bio/"
-  version "1.39.0" # Match the version of your binaries
+  version "1.36.2" # Match the version of your binaries
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://cdn.platforma.bio/software/pl/macos/pl-#{version}-arm64.tgz"
-      sha256 "ef54fb6b12d41edd08f7d2f4b08de9ddc5ea9f363d09c6e747a70affdbd6a0c3"   ### ARM64 DON'T DELETE
+      sha256 "45347e5db0bf4fe1d8d39760fc562662b2c47e30ac94399eca971c1a6113c867"   ### ARM64 DON'T DELETE
     else # Intel
       url "https://cdn.platforma.bio/software/pl/macos/pl-#{version}-amd64.tgz"
-      sha256 "2d71c191e06641555aa290721c99dcf2809952d7d1ff2d518338da99631dc271"   ### AMD64 DON'T DELETE
+      sha256 "9f3951f7384637adc1e9e27eed3208b6edb4535b89261a32a7e2e77c7b08bed9"   ### AMD64 DON'T DELETE
     end
   end
 
