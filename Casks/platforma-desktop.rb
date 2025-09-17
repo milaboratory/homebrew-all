@@ -1,13 +1,13 @@
 cask "platforma-desktop" do
-  version "1.21.7"
+  version "1.21.19"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://cdn.platforma.bio/software/platforma-desktop-v2/macos/arm64/Platforma-#{version}-arm64.dmg"
-      sha256 "9a7adae1ea9ed512fc9f475bbc44eabcca93684d64b0a5c1fa1a0abd214c6b76"   ### ARM64 DON'T DELETE
+      sha256 "10b2a7d09ee688010c9595fa87128703bb7f85de249297a11a7282ea32bb4dbc"   ### ARM64 DON'T DELETE
     else
       url "https://cdn.platforma.bio/software/platforma-desktop-v2/macos/amd64/Platforma-#{version}.dmg"
-      sha256 "24818a2f9786c4ae18712579e2f86a3a7e792fe79fc346c25a680209a1ae4da6"   ### AMD64 DON'T DELETE
+      sha256 "6dd5649785afa3ebf1f87888503dd5d13698426c5b780b48b25c495f63f06325"   ### AMD64 DON'T DELETE
     end
   app "Platforma.app"
   end
