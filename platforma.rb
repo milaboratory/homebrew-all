@@ -49,7 +49,7 @@ class Platforma < Formula
         Platforma is free for academic use. For commercial use you have to buy a license.
 
         See: https://github.com/milaboratory/mixcr/blob/develop/LICENSE
-        To get the license: https://licensing.milaboratories.com/
+        To get the license: https://platforma.bio/getlicense
     EOS
   end
 end
