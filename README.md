@@ -17,5 +17,5 @@ Platforma Desktop App
     ./update_platforma_desktop.sh 1.13.666
 Platforma Server
 
-    ./update_platforma.sh 1.666.7
+    ./update_platforma.sh 3.0.2
 
